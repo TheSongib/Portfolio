@@ -1,0 +1,22 @@
+﻿@page
+@model AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+    <div class="text-center">
+        <h1>@ViewData["Title"]</h1>
+        <p>Learn about either myself on a personal level or about this project as a whole!</p>
+
+        <div class="jumbotron divided" style="margin-right:2px">
+            <h2 style="font-weight:bold;">About Me</h2>
+            <p class="lead">Learn about my interests, hobbies, goals, and anything else not on my resume</p>
+            <p><a href="https://localhost:44330/Services" class="btn btn-primary btn-lg">Learn More &raquo;</a></p>
+        </div>
+
+        <div class="jumbotron divided" style="margin-right:2px;">
+            <h2 style="font-weight:bold;">Learn about this portfolio</h2>
+            <p class="lead">Learn about how, why, and with what technologies I made this portfolio</p>
+            <p><a asp-page="" class="btn btn-primary btn-lg">Learn More &raquo;</a></p>
+        </div>
+    </div>
