@@ -33,3 +33,5 @@ D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Port
 D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Portfolio.pdb
 D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Portfolio.csproj.CopyComplete
 D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Projects.cshtml.g.cs
+D:\Users\owner\Documents\VS2019\Portfolio\Portfolio\obj\Debug\netcoreapp3.1\Razor\Pages\Resume.cshtml.g.cs
