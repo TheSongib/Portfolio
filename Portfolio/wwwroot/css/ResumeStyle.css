@@ -1,0 +1,8 @@
+﻿.description{
+    font-weight:normal;
+    color:gray;
+}
+
+.description em {
+    font-weight:lighter;
+}
