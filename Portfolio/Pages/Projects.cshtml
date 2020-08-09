@@ -4,7 +4,176 @@
     ViewData["Title"] = "Projects";
 }
 
-<div class="text-center">
-    <h1 class="display-4" style="font-weight:bold;">Welcome to My Portfolio and Resumé!</h1>
-    
-</div>
+    <head>
+        <script src="~/js/Projects.js"></script>
+        <link rel="stylesheet" type="text/css" href="~/css/ProjectsStyle.css">
+    </head>
+
+<body>
+
+    <div class="card" style="margin-bottom:50px">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" style="float:right;">
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="portfolioGeneralButton" class="nav-link active" onclick="portfolioGeneralButton()">General</button>
+                </li>
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="portfolioVideoButton" class="nav-link" onclick="portfolioVideoButton()">Video</button>
+                </li>
+                <li class="nav-item">
+                    <button id="portfolioMoreInfoButton" class="nav-link" onclick="portfolioMoreInfoButton()">GitHub</button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+
+            <div id="portfolioGeneral">
+                <div style="width:66%;float:left;">
+                    <h2 class="card-title">This Portfolio</h2>
+                    <p class="card-text" style="padding-right:10px;">This portfolio was a side project I made for a few reasons.  First, I wanted to do a side project for fun during my summer along with my internship.
+                    Secondly, I have had a Ubuntu home server built, and wanted to use it to host a website as a learning experience.  Lastly, I wanted to make something that can provide 
+                    deeper insight in to who I am than a resume and GPA.</p>
+                </div>
+                <div class="technologies">
+                    <p><b>Technologies:</b> MVC, CSS, JavaScript, JQuery, Bootstrap, and HTML5</p>
+                </div>
+            </div>
+
+            <div id="portfolioVideo" style="display:none;text-align:center;">
+                <video width="853" height="480" controls>
+                    <source type="video/mp4">
+                    Your browser does not support videos.  You can view it
+                    <a href="#">here</a>
+                </video>
+            </div>
+
+            <div id="portfolioMoreinfo" style="display:none;">
+                <p class="card-text">Big Info</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom:50px">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" style="float:right;">
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="webGeneralButton" class="nav-link active" onclick="webGeneralButton()">General</button>
+                </li>
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="webVideoButton" class="nav-link" onclick="webVideoButton()">Video</button>
+                </li>
+                <li class="nav-item">
+                    <button id="webMoreInfoButton" class="nav-link" onclick="webMoreInfoButton()">GitHub</button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+
+            <div id="webGeneral">
+                <div style="width:66%;float:left;">
+                    <h2 class="card-title">Web Development Final Project</h2>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="technologies">
+                    <p><b>Technologies:</b> AJAX, SQLLite, CSS, JavaScript, Bootstrap, JQuery, and HTML5</p>
+                </div>
+            </div>
+
+            <div id="webVideo" style="display:none;text-align:center;">
+                <video width="853" height="480" controls>
+                    <source src="~/lib/Videos/Portfolio383Vid.mp4" type="video/mp4">
+                    Your browser does not support videos.  You can view it
+                    <a href="#">here</a>
+                </video>
+            </div>
+
+            <div id="webMoreinfo" style="display:none;">
+                <p class="card-text">Big Info</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom:50px">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" style="float:right;">
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="agileGeneralButton" class="nav-link active" onclick="agileGeneralButton()">General</button>
+                </li>
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="agileVideoButton" class="nav-link" onclick="agileVideoButton()">Video</button>
+                </li>
+                <li class="nav-item">
+                    <button id="agileMoreInfoButton" class="nav-link" onclick="agileMoreInfoButton()">GitHub</button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+
+            <div id="agileGeneral">
+                <div style="width:66%;float:left;">
+                    <h2 class="card-title">Agile Course Project</h2>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="technologies">
+                    <p><b>Technologies: </b>ASP.NET Framework, SQL Server, HTML5, CSS, Boostrap, and C#</p>
+                </div>
+            </div>
+
+            <div id="agileVideo" style="display:none;text-align:center;">
+                <video width="853" height="480" controls>
+                    <source type="video/mp4">
+                    Your browser does not support videos.  You can view it
+                    <a href="#">here</a>
+                </video>
+            </div>
+
+            <div id="agileMoreinfo" style="display:none;">
+                <p class="card-text">Big Info</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom:50px">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" style="float:right;">
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="gameGeneralButton" class="nav-link active" onclick="gameGeneralButton()">General</button>
+                </li>
+                <li class="nav-item" style="padding-right:2px;">
+                    <button id="gameVideoButton" class="nav-link" onclick="gameVideoButton()">Video</button>
+                </li>
+                <li class="nav-item">
+                    <button id="gameMoreInfoButton" class="nav-link" onclick="gameMoreInfoButton()">GitHub</button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+
+            <div id="gameGeneral">
+                <div style="width:66%;float:left;">
+                    <h2 class="card-title">Java Minigame</h2>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="technologies">
+                    <p><b>Technologies: </b>Java</p>
+                </div>
+            </div>
+
+            <div id="gameVideo" style="display:none;text-align:center;">
+                <video width="853" height="480" controls>
+                    <source  type="video/mp4">
+                    Your browser does not support videos.  You can view it
+                    <a href="#">here</a>
+                </video>
+            </div>
+
+            <div id="gameMoreinfo" style="display:none;">
+                <p class="card-text">Big Info</p>
+            </div>
+
+        </div>
+    </div>
+</body>

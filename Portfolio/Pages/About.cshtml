@@ -1,22 +1,96 @@
 ﻿@page
 @model AboutModel
 @{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "About Me";
 }
 
     <div class="text-center">
         <h1>@ViewData["Title"]</h1>
-        <p>Learn about either myself on a personal level or about this project as a whole!</p>
-
-        <div class="jumbotron divided" style="margin-right:2px">
-            <h2 style="font-weight:bold;">About Me</h2>
-            <p class="lead">Learn about my interests, hobbies, goals, and anything else not on my resume</p>
-            <p><a href="https://localhost:44330/Services" class="btn btn-primary btn-lg">Learn More &raquo;</a></p>
+        <div id="general" class="row" style="justify-content:left;margin-bottom:1vw;padding-bottom:8px;border-bottom:solid 1px gray;text-align:left;">
+            <h2>
+                My Life
+            </h2>
+            <p style="padding-left:1vw;">
+                Hi! I'm Brandon and I wanted to make a page to get to know me on a more personal level since the application and hiring process can be very analytical and impersonal.
+                I am a junior at Miami University in Oxford, Ohio.  I've lived in the greater Cincinnati area my entire life, but as I've gotten older I have wanted to move around to experience living in different places.
+                I have two daschunds, Sara and Penny, and they are mother (Sara) and daughter (Penny).
+                <br />
+                <br />
+                While I haven't gotten the chance to live anywhere else, I have been fortunate enough to do a lot of traveling.  I have traveled to a wide variety of places in the US, and also Mexico, Canada, the UK, France, Spain, and Portugal, but I hope to continue to travel
+                in the future.  I found traveling in Europe to be the most impactful since I had never experienced a culture that was much different than the US.  This gave me a whole new perspective on how different places can be in the world, and how different cultures can have
+                entirely different ways of doing things.
+                <br />
+                <br />
+                Probably the most interseting fact about me is that I have climbed a moutain.  I climbed the Grand Teton (elevation 13,776′) in Wyoming when I was 15 years old.  This was a major accomplishment for me, and something that I trained 
+                for for months prior.  Overall, it was a good experience, but it isn't something I have a desire to do again.  It was a lot of work, and very rewarding, but I didn't enjoy the actual moutain climbing enough to make it worth doing again for me.
+            </p>
         </div>
+        <div id="hobbies" class="row" style="justify-content:left;margin-bottom:1vw;padding-bottom:8px;border-bottom:solid 1px gray;text-align:left;">
+            <h2 style="padding-bottom:1vw;">
+                My Hobbies
+            </h2>
+            <div style="padding-left:1vw;">
+                <h5>
+                    Video Games and Computers
+                </h5>
+                <p>
+                    This is probably the most obvious hobby of mine given my career choice, so I'll start here.  I first started enjoying playing video games in the 5 grade when I got an Xbox for Christmas.  This started my
+                    hobby of playing video games in my free time.  When I was about 13, I wanted to build a computer to play video games on, and within a few years, at about 15 years old, I was able to pursue building my first computer.
+                    From following tutorials on YouTube, I was able to accomplish this and build a working computer.  I did build it to play video games on, but this sparked my greater interest  in computers.  Once I built a computer,
+                    I wanted to build games and eventually programs in general to make my computer do something from what I coded.  My first taste of this was in 8th grade robotics class when I had to code a small robot to do simple
+                    things with only if statements and while loops, and ever since then I have loved computer coding.
+                    <br />
+                    <br />
+                    Since being introduced to video games and computers, I have continued to enjoy all things video game and computer related.
+                    Most recently, in the summer of 2018 I built an entirely new desktop computer that is much improved over what I had before.  The following summer in 2019 I built a server computer.  This was not only super enjoyable to me
+                    but I also learned a lot about servers compared to regular computers, and continue to learn about and maintain  the server in Ubuntu 18.04 LTS (which is actually what this portfolio is running on right now!).  Ever since
+                    starting my college career, I have had a lot of fun creating fun side projects, such as this portfolio or making small Java games. Also more recently, I have really enjoyed watching eSports in my favorite video game, Rocket League.
 
-        <div class="jumbotron divided" style="margin-right:2px;">
-            <h2 style="font-weight:bold;">Learn about this portfolio</h2>
-            <p class="lead">Learn about how, why, and with what technologies I made this portfolio</p>
-            <p><a asp-page="" class="btn btn-primary btn-lg">Learn More &raquo;</a></p>
+                </p>
+                <br />
+                <h5>
+                    Golf and Boxing
+                </h5>
+                <p>
+                    Until very recently, I have never enjoyed any sports or active hobbies, but more recently with my interests have broadened when I have been exposed to more since going to college and moving out.  I first started getting interested in
+                    boxing, and joined the Miami University Boxing Club with a friend.  I spend most of my time in this club so far just training my boxing skills, and just started sparring for the first time a week before going remote due to Covid-19.
+                    I most likely won't be able to continue doing boxing club until the pandemic has been successfully contained and/or resolved due to social distancing, my friend and I are continuing to train and spar with each other so that we will be ready
+                    to compete in collegiate boxing tournaments when we are able to resume, since our original plan was to start competing my junior year anyways.
+                    <br />
+                    <br />
+                    This past summer I have also dove into golfing.  Golfing has always peaked my interest since it is a more relaxing sport which I find fun and relaxing.  I started actually golfing this summer when my best friend and dorm roommate told
+                    me that he was starting to enjoy golfing.  From that point, I bought my first set of *used* golf club set and accessories from ebay.  As time of writing this, I have gone to the driving range at least once a week since that point, and
+                    have gotten to go golfing on a course a handful of times.  I haven't been playing golf for very long, but hope to continue playing throughout the school year with some friends.
+                </p>
+                <br />
+                <h5>
+                    Investing and Trading
+                </h5>
+                <p>
+                    Ever since turning 18, I have been interested and love messing around in the stock market.  I have an account with Robinhood brokerage app that I have some play money with that I use to mess around in the stock market and have fun with.
+                    I started doing some very minor trading when I first turned 18, but I left it alone until I got to college where I started to get back to it.  In April of my freshman year I started doing some investing with Bitcoin and Litecoin with Robinhood's
+                    cryptocurrency trading platform, and since then I have continued to do trading in Bitcoin, stocks, and options with a much more diversified portfolio.  During the stock market crash when Covid-19 first started, I enjoyed trading options all the
+                    way down that spiral downward, and since then have been holding a lock of stock equity and some Bitcoin and have left options trading alone for the most part.  While I am very proud of having nearly doubled my money in Robinhood since first
+                    starting with bitcoin in April of 2019, I contribute that to more luck than anything since I don't have much knowledge on how to properly make trading decisions.
+                </p>
+            </div>
+        </div>
+        <div id="csIntro" class="row" style="justify-content:left;margin-bottom:1vw;padding-bottom:8px;border-bottom:solid 1px gray;text-align:left;">
+            <h2 style="padding-bottom:1vw;">
+                Interest in Computer Science
+            </h2>
+            <p style="padding-left:1vw;">
+                I touched on my interest in computer science a little bit in my hobbies section, but there is a lot more detail I can go into on how I got interested in computer science and what still interests me about it.  I first started getting interested in computers
+                when I started to enjoy playing video games around when I was in 5th grade.  I then wanted to build a computer to play video games on, and eventually accomplished this when I was 13 or 14.  From that point, I was always curious as to how computer programs worked.
+                I knew that they were coded with coding languages, and I wanted to learn how to make programs so that I could make my computer "do stuff" from what I wrote.  I first got exposed to coding when I was in 8th grade robotics class, and I had to use code to
+                get the robot to do simple things.  I mainly only used 1 or 2 if and while statements to get the program to make some simple decisions.  I loved doing that, and wanted to do more.  I never knew what an IDE was or how to use it, so I didn't know how to code on my own.
+                I then got exposed to coding again in my 10th grade engineering class where I had to code a much more complex robot, but of the same sort as in 8th grade.  By this point, I knew I wanted to go into computer science and software engineering, but I still had never
+                gotten my hands on coding again.  I enjoyed it a lot, and continued to take a computer science class in my senior year as a way to affirm that this is what I wanted to do.
+                <br />
+                <br />
+                To this day, I still love computer science and coding.  Now that I know more about the subject, I still enjoy making my own programs and side projects.  What I enjoy most about computer science and coding still to this day, is to me everything is a puzzle.
+                I enjoy using relatively simple tools such as loops, if statements, methods, etc. to try and solve a much more complex problem.  I love trying to figure out these problems and I have yet to get tired of it.  There are definitely times where I get
+                frustrated and tired, but after a short break or after coming back to it the next day, I always get reinvigorated to try and solve the problem.
+            </p>
         </div>
     </div>
